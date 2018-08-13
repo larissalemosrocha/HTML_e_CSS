@@ -1,0 +1,71 @@
+body{
+  background-image: url(../images/fundo_cv.png);
+  background-attachment: fixed;
+  background-color: rgba (16, 79, 80, 0.34)
+  font-family: sans-serif;
+}
+.destaque{
+  font-style: italic;
+}
+h1{
+  color: #009688;
+  font-size: 18px;
+  text-align: center;
+  font-style: italic;
+}
+h2{
+  color: #009688;
+  text-decoration: underline;
+  font-weight: normal;
+  text-align: left;
+  font-size: 16px;
+}
+h3{
+  color: #009688;
+  text-decoration: underline;
+  font-weight: normal;
+  text-align: left;
+  font-size: 16px;
+}
+
+h4{
+  color: #009688;
+  text-decoration: underline;
+  font-weight: normal;
+  text-align: left;
+  font-size: 16px;
+}
+
+h5{
+  color: #009688;
+  text-decoration: underline;
+  font-weight: normal;
+  text-align: left;
+  font-size: 16px;
+}
+
+h6{
+  color: #009688;
+  text-decoration: underline;
+  font-weight: normal;
+  text-align: left;
+  font-size: 16px;
+}
+
+li{
+  color:black;
+  font-size: 14px;
+  line-height: 2em;
+}
+
+p{
+  text-align: justify;
+  font-size: 14px;
+  line-height: 2em;
+}
+
+a{
+  color:black;
+  font-size: 14px;
+  line-height: 2em;
+}
