@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/styles.css" rel="stylesheet" >
+    <meta charset="utf-8">
+    <title> Formulário de Consultas</title>
+  </head>
+  <body>
+    <h1> Formulário de Consultas</h1>
+
+    <form class="" action="index.html" method="get">
+      <label for="nome"> Nome e Sobenome: </label>
+      <input type="text" name="nome" id="nome" placeholder="digite seu nome">
+      <br/>
+      <br/>
+      <label for="E-mail"> E-mail:</label>
+      <input type="email" name="email" id="E-mail" placeholder="email@email.com" required>
+      <br/>
+      <br/>
+      <label for="assunto"> Assunto da Mensagem:</label>
+      <select name="assunto">
+        <option value="selecione">Selecione</option>
+        <option value="estudo"> Estudo </option>
+        <option value="trabalho"> Trabalho </option>
+        <option value="pesquisa"> Pesquisa </option>
+        <option value="outros"> Outros</option>
+      </select>
+      <br/>
+      <br/>
+      <label> Gênero: </label> <br/>
+      <input type="radio" name="genero" id=" Feminino" value="Feminino">
+      <label for="feminino">Feminino</label>
+      <input type="radio" name="genero" id="Masculino" value="Masculino">
+      <label for="masculino">Masculino</label>
+      <input type="radio" name="genero" id="Prefiro não responder" value="Prefiro não responder">
+      <label for="prefiro não responder"> Prefiro não responder</label>
+      <br/>
+      <br/>
+      <label> Passatempos:</label> <br/>
+      <input type="checkbox" name="hobbies" id="ler" value="ler">
+      <label for="ler">Ler</label>
+      <input type="checkbox" name="hobbies" id="cozinhar" value="cozinhar">
+      <label for="cozinhar">Cozinhar</label>
+      <input type="checkbox" name="hobbies" id="escrever artigos" value="escrever artigos">
+      <label for="escrever artigos"> Escrever Artigos</label>
+      <input type="checkbox" name="hobbies" id="academia" value="academia">
+      <label for="academia"> Academia</label>
+      <input type="checkbox" name="hobbies" id="dançar" value="dançar">
+      <label for="dançar">Dançar</label>
+      <br/>
+      <br/>
+      <label>Comentários:</label> <br/>
+      <textarea name="comentarios" rows="5" cols="50"></textarea>
+      <br/>
+      <br/>
+      <button type="submit">Enviar</button>
+      <br/>
+      <br/>
+      <a href="index.html" target="_blank">
+      Veja meu Currículo!
+      </a>
+      <br/>
+      <a href="hobbies.html" target="_blank">
+      Veja meus Hobbies!
+      </a>
+    </form>
+  </body>
+</html>
